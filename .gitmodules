@@ -1,0 +1,3 @@
+[submodule "Projeto Trainee/Projeto Trainee/todo-list"]
+	path = Projeto Trainee/Projeto Trainee/todo-list
+	url = https://github.com/HeitorgOliveira/todo-list.git
