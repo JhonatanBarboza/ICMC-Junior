@@ -4,21 +4,6 @@ import "./TaskManager.css";
 const TaskManager = () => {
   return (
     <div className="app-container">
-      {/* Cabeçalho */}
-      <header className="app-header">
-        <div className="header-logo">
-            <img 
-            src={process.env.PUBLIC_URL + "/images/logo.png"} 
-            alt="ICMC Junior" 
-            className="logo-image"
-            />
-        </div>
-        <nav className="header-nav">
-            <a href="#" className="nav-link active">HOME</a>
-            <a href="#" className="nav-link">CRIAR CONTA</a>
-            <a href="#" className="nav-link">ENTRAR</a>
-        </nav>
-        </header>
 
       {/* Conteúdo principal com layout melhorado */}
       <main className="main-content">
