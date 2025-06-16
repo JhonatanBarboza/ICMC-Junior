@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const EditProfile = () => {
   const [profile, setProfile] = useState({
-    name: "JOAO DA SILVA",
+    name: "JOÃO DA SILVA",
     birthDate: "11/11/2001",
     cpf: "11.11.11-11-11",
     email: "joaosilva@gmail.com"
@@ -58,7 +58,7 @@ const EditProfile = () => {
       
       <div className="profile-actions">
         <Link to="/profile" className="profile-button cancel-button">Cancelar</Link>
-        <button className="profile-button save-button">Salvar</button>
+        <Link to="/profile" className="profile-button save-button">Salvar</Link>
       </div>
     </div>
   );
