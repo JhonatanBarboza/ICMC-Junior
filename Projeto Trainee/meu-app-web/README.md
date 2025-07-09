@@ -4,13 +4,6 @@
 - npm install
 - npm start
 
-## Fazer
+## Git 
 
-- TodoListPage.jsx
-- TodoListPage.css
-
-- Lincar uma pagina na outra (os botões ja existem só colocar o link)
-
-
-
-aaaaaaaaaaaaaaaaaaa
+https://github.com/HeitorgOliveira/todo-list
